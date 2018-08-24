@@ -93,7 +93,7 @@
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-eval("throw new Error(\"Module parse failed: Unexpected token (5:20)\\nYou may need an appropriate loader to handle this file type.\\n| import DataProvider from \\\"./DataProvider\\\";\\r\\n| import Table from \\\"./Table\\\";\\r\\n> const App = () => ( <\\r\\n|         DataProvider endpoint = \\\"api/lead/\\\"\\r\\n|         render = {\\r\");\n\n//# sourceURL=webpack:///./project/frontend/src/components/App.js?");
+eval("throw new Error(\"Module parse failed: Unexpected token (6:2)\\nYou may need an appropriate loader to handle this file type.\\n| import Table from \\\"./Table\\\";\\r\\n| const App = () => (\\r\\n>   <DataProvider endpoint=\\\"api/lead/\\\" \\r\\n|                 render={data => <Table data={data} />} />\\r\\n| );\\r\");\n\n//# sourceURL=webpack:///./project/frontend/src/components/App.js?");
 
 /***/ }),
 
